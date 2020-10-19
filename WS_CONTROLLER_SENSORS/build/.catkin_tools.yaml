@@ -1,0 +1,6 @@
+devel_space: /home/mivia/controller_sensors/devel
+install: false
+install_space: /home/mivia/controller_sensors/install
+profile: default
+source_space: /home/mivia/controller_sensors/src
+workspace: /home/mivia/controller_sensors
