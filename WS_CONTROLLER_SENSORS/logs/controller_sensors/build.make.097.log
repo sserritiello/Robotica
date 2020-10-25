@@ -1,0 +1,14 @@
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _controller_sensors_generate_messages_check_deps_InfoData
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  9%] Built target controller_sensors_generate_messages_cpp
+[ 27%] Built target controller_sensors_generate_messages_py
+[ 45%] Built target controller_sensors_generate_messages_eus
+[ 54%] Built target controller_sensors_generate_messages_lisp
+[ 63%] Built target controller_sensors_generate_messages_nodejs
+[ 81%] Built target sensors
+[100%] Built target controller
+[100%] Built target controller_sensors_generate_messages

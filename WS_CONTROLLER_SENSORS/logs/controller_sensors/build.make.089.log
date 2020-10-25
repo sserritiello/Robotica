@@ -1,0 +1,136 @@
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _controller_sensors_generate_messages_check_deps_InfoData
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  9%] Built target controller_sensors_generate_messages_cpp
+[ 27%] Built target controller_sensors_generate_messages_py
+[ 45%] Built target controller_sensors_generate_messages_eus
+[ 54%] Built target controller_sensors_generate_messages_lisp
+[ 63%] Built target controller_sensors_generate_messages_nodejs
+[ 81%] Built target sensors
+[ 90%] [32mBuilding CXX object CMakeFiles/controller.dir/controller/controller.cpp.o[0m
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:1[m[K:
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:[m[K In function ‘[01m[Kvoid customCallback(const InfoData&)[m[K’:
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:7:71:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst InfoData {aka const controller_sensors::InfoData_<std::allocator<void> >}[m[K’
+     ROS_INFO("Sensor measurements: [%s] [%s] [%s] [%s] [%s] [%s]", msg[01;31m[K-[m[K>s01,msg->s2,msg->s3,msg->s4,msg->s5,msg->s6);
+                                                                       [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:346:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:385:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:570:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:7:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     [01;36m[KROS_INFO[m[K("Sensor measurements: [%s] [%s] [%s] [%s] [%s] [%s]", msg->s01,msg->s2,msg->s3,msg->s4,msg->s5,msg->s6);
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:7:80:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst InfoData {aka const controller_sensors::InfoData_<std::allocator<void> >}[m[K’
+     ROS_INFO("Sensor measurements: [%s] [%s] [%s] [%s] [%s] [%s]", msg->s01,msg[01;31m[K-[m[K>s2,msg->s3,msg->s4,msg->s5,msg->s6);
+                                                                                [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:346:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:385:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:570:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:7:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     [01;36m[KROS_INFO[m[K("Sensor measurements: [%s] [%s] [%s] [%s] [%s] [%s]", msg->s01,msg->s2,msg->s3,msg->s4,msg->s5,msg->s6);
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:7:88:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst InfoData {aka const controller_sensors::InfoData_<std::allocator<void> >}[m[K’
+     ROS_INFO("Sensor measurements: [%s] [%s] [%s] [%s] [%s] [%s]", msg->s01,msg->s2,msg[01;31m[K-[m[K>s3,msg->s4,msg->s5,msg->s6);
+                                                                                        [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:346:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:385:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:570:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:7:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     [01;36m[KROS_INFO[m[K("Sensor measurements: [%s] [%s] [%s] [%s] [%s] [%s]", msg->s01,msg->s2,msg->s3,msg->s4,msg->s5,msg->s6);
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:7:96:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst InfoData {aka const controller_sensors::InfoData_<std::allocator<void> >}[m[K’
+     ROS_INFO("Sensor measurements: [%s] [%s] [%s] [%s] [%s] [%s]", msg->s01,msg->s2,msg->s3,msg[01;31m[K-[m[K>s4,msg->s5,msg->s6);
+                                                                                                [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:346:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:385:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:570:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:7:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     [01;36m[KROS_INFO[m[K("Sensor measurements: [%s] [%s] [%s] [%s] [%s] [%s]", msg->s01,msg->s2,msg->s3,msg->s4,msg->s5,msg->s6);
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:7:104:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst InfoData {aka const controller_sensors::InfoData_<std::allocator<void> >}[m[K’
+     ROS_INFO("Sensor measurements: [%s] [%s] [%s] [%s] [%s] [%s]", msg->s01,msg->s2,msg->s3,msg->s4,msg[01;31m[K-[m[K>s5,msg->s6);
+                                                                                                        [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:346:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:385:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:570:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:7:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     [01;36m[KROS_INFO[m[K("Sensor measurements: [%s] [%s] [%s] [%s] [%s] [%s]", msg->s01,msg->s2,msg->s3,msg->s4,msg->s5,msg->s6);
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:7:112:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst InfoData {aka const controller_sensors::InfoData_<std::allocator<void> >}[m[K’
+     ROS_INFO("Sensor measurements: [%s] [%s] [%s] [%s] [%s] [%s]", msg->s01,msg->s2,msg->s3,msg->s4,msg->s5,msg[01;31m[K-[m[K>s6);
+                                                                                                                [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:346:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:385:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:570:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:7:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     [01;36m[KROS_INFO[m[K("Sensor measurements: [%s] [%s] [%s] [%s] [%s] [%s]", msg->s01,msg->s2,msg->s3,msg->s4,msg->s5,msg->s6);
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:8:2:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K/[m[K’ token
+ *[01;31m[K/[m[K
+  [01;31m[K^[m[K
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:10:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+ [01;31m[K}[m[K
+ [01;31m[K^[m[K
+CMakeFiles/controller.dir/build.make:62: recipe for target 'CMakeFiles/controller.dir/controller/controller.cpp.o' failed
+CMakeFiles/Makefile2:643: recipe for target 'CMakeFiles/controller.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make[2]: *** [CMakeFiles/controller.dir/controller/controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/controller.dir/all] Error 2
+make: *** [all] Error 2

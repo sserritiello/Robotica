@@ -1,0 +1,8 @@
+prefix=/home/mivia/EserciziRobotica/Robotica/WS_URDF/install
+
+Name: my_urdf
+Description: Description of my_urdf
+Version: 0.5.0
+Cflags: 
+Libs: -L/home/mivia/EserciziRobotica/Robotica/WS_URDF/install/lib 
+Requires: 

@@ -1,0 +1,1 @@
+/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/devel/.private/controller_sensors/share/roseus/ros/controller_sensors/msg/DataArray.l

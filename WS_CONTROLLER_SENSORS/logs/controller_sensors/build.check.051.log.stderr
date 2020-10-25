@@ -1,0 +1,5 @@
+[31m[1mCMake Error[0m at /home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/CMakeLists.txt:119:
+  Parse error.  Expected a command name, got right paren with text ")".
+
+
+make: *** [cmake_check_build_system] Error 1

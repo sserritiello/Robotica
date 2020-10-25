@@ -1,0 +1,4 @@
+my_urdf
+/home/mivia/EserciziRobotica/Robotica/WS_URDF/devel/.private/my_urdf/lib/pkgconfig/my_urdf.pc /home/mivia/EserciziRobotica/Robotica/WS_URDF/devel/lib/pkgconfig/my_urdf.pc
+/home/mivia/EserciziRobotica/Robotica/WS_URDF/devel/.private/my_urdf/share/my_urdf/cmake/my_urdfConfig.cmake /home/mivia/EserciziRobotica/Robotica/WS_URDF/devel/share/my_urdf/cmake/my_urdfConfig.cmake
+/home/mivia/EserciziRobotica/Robotica/WS_URDF/devel/.private/my_urdf/share/my_urdf/cmake/my_urdfConfig-version.cmake /home/mivia/EserciziRobotica/Robotica/WS_URDF/devel/share/my_urdf/cmake/my_urdfConfig-version.cmake

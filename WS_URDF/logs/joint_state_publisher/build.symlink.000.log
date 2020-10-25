@@ -1,0 +1,4 @@
+Symlinking /home/mivia/EserciziRobotica/Robotica/WS_URDF/devel/lib/python2.7/dist-packages/joint_state_publisher/__init__.py
+Symlinking /home/mivia/EserciziRobotica/Robotica/WS_URDF/devel/lib/pkgconfig/joint_state_publisher.pc
+Symlinking /home/mivia/EserciziRobotica/Robotica/WS_URDF/devel/share/joint_state_publisher/cmake/joint_state_publisherConfig.cmake
+Symlinking /home/mivia/EserciziRobotica/Robotica/WS_URDF/devel/share/joint_state_publisher/cmake/joint_state_publisherConfig-version.cmake

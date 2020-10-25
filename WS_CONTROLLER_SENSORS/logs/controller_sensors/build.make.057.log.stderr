@@ -1,0 +1,48 @@
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:6:43:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[Krosgraph_msgs[m[K’ does not name a type
+ void chatterCallback(const rosgraph_msgs::[01;31m[KString[m[K& msg){
+                                           [01;31m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:1[m[K:
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(const int&)[m[K’:
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:7:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kdata[m[K’ in ‘[01m[Kmsg[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+     ROS_INFO("I heard: [%s]", msg.[01;31m[Kd[m[Kata.c_str());
+                                   [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:346:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:385:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:570:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:7:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     [01;36m[KROS_INFO[m[K("I heard: [%s]", msg.data.c_str());
+     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/serialization.h:37:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/publisher.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:1[m[K:
+/opt/ros/melodic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::MD5Sum<M>::value() [with M = int][m[K’:
+[01m[K/opt/ros/melodic/include/ros/message_traits.h:228:102:[m[K   required from ‘[01m[Kconst char* ros::message_traits::md5sum() [with M = int][m[K’
+[01m[K/opt/ros/melodic/include/ros/subscribe_options.h:89:49:[m[K   required from ‘[01m[Kvoid ros::SubscribeOptions::initByFullCallbackType(const string&, uint32_t, const boost::function<void(P)>&, const boost::function<boost::shared_ptr<typename ros::ParameterAdapter<P>::Message>()>&) [with P = const int&; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int; typename ros::ParameterAdapter<P>::Message = int][m[K’
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:659:5:[m[K   required from ‘[01m[Kros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(M), const ros::TransportHints&) [with M = const int&; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int][m[K’
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:13:71:[m[K   required from here
+[01m[K/opt/ros/melodic/include/ros/message_traits.h:121:28:[m[K [01;31m[Kerror: [m[K‘[01m[K__s_getMD5Sum[m[K’ is not a member of ‘[01m[Kint[m[K’
+     return [01;31m[KM::__s_getMD5Sum()[m[K.c_str();
+            [01;31m[K~~~~~~~~~~~~~~~~^~[m[K
+/opt/ros/melodic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::DataType<M>::value() [with M = int][m[K’:
+[01m[K/opt/ros/melodic/include/ros/message_traits.h:237:104:[m[K   required from ‘[01m[Kconst char* ros::message_traits::datatype() [with M = int][m[K’
+[01m[K/opt/ros/melodic/include/ros/subscribe_options.h:90:53:[m[K   required from ‘[01m[Kvoid ros::SubscribeOptions::initByFullCallbackType(const string&, uint32_t, const boost::function<void(P)>&, const boost::function<boost::shared_ptr<typename ros::ParameterAdapter<P>::Message>()>&) [with P = const int&; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int; typename ros::ParameterAdapter<P>::Message = int][m[K’
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:659:5:[m[K   required from ‘[01m[Kros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(M), const ros::TransportHints&) [with M = const int&; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int][m[K’
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:13:71:[m[K   required from here
+[01m[K/opt/ros/melodic/include/ros/message_traits.h:138:30:[m[K [01;31m[Kerror: [m[K‘[01m[K__s_getDataType[m[K’ is not a member of ‘[01m[Kint[m[K’
+     return [01;31m[KM::__s_getDataType()[m[K.c_str();
+            [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+make[2]: *** [CMakeFiles/controller.dir/controller/controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/controller.dir/all] Error 2
+make: *** [all] Error 2

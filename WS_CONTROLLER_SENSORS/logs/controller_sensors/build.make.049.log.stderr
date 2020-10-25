@@ -1,0 +1,10 @@
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/sensors/sensors.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/sensors/sensors.cpp:15:5:[m[K [01;31m[Kerror: [m[K‘[01m[KDataArray[m[K’ was not declared in this scope
+     [01;31m[KDataArray[m[K d;
+     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/sensors/sensors.cpp:16:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kd[m[K’ was not declared in this scope
+  [01;31m[Kd[m[K.s1=rand()%90;
+  [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/sensors.dir/sensors/sensors.cpp.o] Error 1
+make[1]: *** [CMakeFiles/sensors.dir/all] Error 2
+make: *** [all] Error 2

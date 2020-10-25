@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/mivia/controller_sensors/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
-export PWD="/home/mivia/controller_sensors/build/catkin_tools_prebuild"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/mivia/controller_sensors/devel/.private/catkin_tools_prebuild/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/mivia/controller_sensors/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
+export PWD="/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/build/catkin_tools_prebuild"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/devel/.private/catkin_tools_prebuild/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"

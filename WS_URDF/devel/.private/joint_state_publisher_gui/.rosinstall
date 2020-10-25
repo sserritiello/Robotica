@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/mivia/EserciziRobotica/Robotica/WS_URDF/devel/.private/joint_state_publisher_gui/setup.sh

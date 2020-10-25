@@ -1,0 +1,17 @@
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:5:27:[m[K [01;31m[Kerror: [m[K‘[01m[KDataArray[m[K’ does not name a type
+ void customCallback(const [01;31m[KDataArray[m[K::String& msg){
+                           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:5:44:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+ void customCallback(const DataArray::String[01;31m[K&[m[K msg){
+                                            [01;31m[K^[m[K
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:5:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:5:46:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+ void customCallback(const DataArray::String& [01;31m[Kmsg[m[K){
+                                              [01;31m[K^~~[m[K
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:14:52:[m[K [01;31m[Kerror: [m[K‘[01m[KcustomCallback[m[K’ was not declared in this scope
+     ros::Subscriber s = nH.subscribe("rosout",1000,[01;31m[KcustomCallback[m[K);
+                                                    [01;31m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/controller.dir/controller/controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/controller.dir/all] Error 2
+make: *** [all] Error 2

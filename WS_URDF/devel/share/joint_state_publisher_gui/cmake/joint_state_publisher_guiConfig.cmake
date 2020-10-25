@@ -1,0 +1,1 @@
+/home/mivia/EserciziRobotica/Robotica/WS_URDF/devel/.private/joint_state_publisher_gui/share/joint_state_publisher_gui/cmake/joint_state_publisher_guiConfig.cmake

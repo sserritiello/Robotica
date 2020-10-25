@@ -1,1 +1,1 @@
-/home/mivia/controller_sensors/devel/.private/catkin_tools_prebuild/env.sh
+/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/devel/.private/catkin_tools_prebuild/env.sh

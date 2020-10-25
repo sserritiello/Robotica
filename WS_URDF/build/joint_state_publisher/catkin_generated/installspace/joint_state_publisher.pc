@@ -1,0 +1,8 @@
+prefix=/home/mivia/EserciziRobotica/Robotica/WS_URDF/install
+
+Name: joint_state_publisher
+Description: Description of joint_state_publisher
+Version: 1.15.0
+Cflags: 
+Libs: -L/home/mivia/EserciziRobotica/Robotica/WS_URDF/install/lib 
+Requires: 

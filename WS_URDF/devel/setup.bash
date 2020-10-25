@@ -1,0 +1,1 @@
+/home/mivia/EserciziRobotica/Robotica/WS_URDF/devel/.private/catkin_tools_prebuild/setup.bash

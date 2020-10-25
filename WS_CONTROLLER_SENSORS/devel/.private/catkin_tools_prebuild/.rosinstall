@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/mivia/controller_sensors/devel/.private/catkin_tools_prebuild/setup.sh
+    local-name: /home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/devel/.private/catkin_tools_prebuild/setup.sh

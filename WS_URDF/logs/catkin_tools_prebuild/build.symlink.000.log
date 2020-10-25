@@ -1,0 +1,8 @@
+Symlinking /home/mivia/EserciziRobotica/Robotica/WS_URDF/devel/./_setup_util.py
+Symlinking /home/mivia/EserciziRobotica/Robotica/WS_URDF/devel/./env.sh
+Symlinking /home/mivia/EserciziRobotica/Robotica/WS_URDF/devel/./setup.bash
+Symlinking /home/mivia/EserciziRobotica/Robotica/WS_URDF/devel/./setup.sh
+Symlinking /home/mivia/EserciziRobotica/Robotica/WS_URDF/devel/./setup.zsh
+Symlinking /home/mivia/EserciziRobotica/Robotica/WS_URDF/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/mivia/EserciziRobotica/Robotica/WS_URDF/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/mivia/EserciziRobotica/Robotica/WS_URDF/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake

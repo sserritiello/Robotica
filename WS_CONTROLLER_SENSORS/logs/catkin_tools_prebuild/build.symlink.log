@@ -1,8 +1,8 @@
-Symlinking /home/mivia/controller_sensors/devel/./_setup_util.py
-Symlinking /home/mivia/controller_sensors/devel/./env.sh
-Symlinking /home/mivia/controller_sensors/devel/./setup.bash
-Symlinking /home/mivia/controller_sensors/devel/./setup.sh
-Symlinking /home/mivia/controller_sensors/devel/./setup.zsh
-Symlinking /home/mivia/controller_sensors/devel/lib/pkgconfig/catkin_tools_prebuild.pc
-Symlinking /home/mivia/controller_sensors/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
-Symlinking /home/mivia/controller_sensors/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/devel/./_setup_util.py
+Symlinking /home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/devel/./env.sh
+Symlinking /home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/devel/./setup.bash
+Symlinking /home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/devel/./setup.sh
+Symlinking /home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/devel/./setup.zsh
+Symlinking /home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake

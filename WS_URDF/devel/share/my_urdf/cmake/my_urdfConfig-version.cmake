@@ -1,0 +1,1 @@
+/home/mivia/EserciziRobotica/Robotica/WS_URDF/devel/.private/my_urdf/share/my_urdf/cmake/my_urdfConfig-version.cmake

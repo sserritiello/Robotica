@@ -1,0 +1,8 @@
+prefix=/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/install
+
+Name: controller_sensors
+Description: Description of controller_sensors
+Version: 0.0.0
+Cflags: -I/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/install/include
+Libs: -L/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/install/lib 
+Requires: roscpp message_runtime std_msgs

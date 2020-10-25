@@ -1,6 +1,6 @@
-devel_space: /home/mivia/controller_sensors/devel
+devel_space: /home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/devel
 install: false
-install_space: /home/mivia/controller_sensors/install
+install_space: /home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/install
 profile: default
-source_space: /home/mivia/controller_sensors/src
-workspace: /home/mivia/controller_sensors
+source_space: /home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src
+workspace: /home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS

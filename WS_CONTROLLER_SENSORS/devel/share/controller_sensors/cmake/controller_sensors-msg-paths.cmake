@@ -1,0 +1,1 @@
+/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/devel/.private/controller_sensors/share/controller_sensors/cmake/controller_sensors-msg-paths.cmake

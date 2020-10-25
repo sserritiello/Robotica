@@ -1,0 +1,13 @@
+[31m[1mCMake Error[0m at /home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/build/controller_sensors/cmake/controller_sensors-genmsg.cmake:3 (message):
+  Could not find messages which
+  '/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/msg/InfoData.msg'
+  depends on.  Did you forget to specify generate_messages(DEPENDENCIES ...)?
+
+  Cannot locate message [int] in package [controller_sensors] with paths
+  [['/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/msg']]
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/melodic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
+  CMakeLists.txt:68 (generate_messages)
+
+
+make: *** [cmake_check_build_system] Error 1

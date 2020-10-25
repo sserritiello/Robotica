@@ -1,0 +1,6 @@
+devel_space: /home/mivia/EserciziRobotica/Robotica/WS_URDF/devel
+install: false
+install_space: /home/mivia/EserciziRobotica/Robotica/WS_URDF/install
+profile: default
+source_space: /home/mivia/EserciziRobotica/Robotica/WS_URDF/src
+workspace: /home/mivia/EserciziRobotica/Robotica/WS_URDF

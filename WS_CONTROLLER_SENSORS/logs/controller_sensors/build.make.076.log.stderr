@@ -1,0 +1,7 @@
+[01m[K/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/src/controller_sensors/controller/controller.cpp:3:10:[m[K [01;31m[Kfatal error: [m[KInfoData.h: No such file or directory
+ #include [01;31m[K"InfoData.h"[m[K
+          [01;31m[K^~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/controller.dir/controller/controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/controller.dir/all] Error 2
+make: *** [all] Error 2

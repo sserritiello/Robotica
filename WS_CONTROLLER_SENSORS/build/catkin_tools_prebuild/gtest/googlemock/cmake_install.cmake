@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/mivia/controller_sensors/install")
+  set(CMAKE_INSTALL_PREFIX "/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/mivia/controller_sensors/build/catkin_tools_prebuild/gtest/googlemock/gtest/cmake_install.cmake")
+  include("/home/mivia/EserciziRobotica/Robotica/WS_CONTROLLER_SENSORS/build/catkin_tools_prebuild/gtest/googlemock/gtest/cmake_install.cmake")
 
 endif()
 

@@ -1,0 +1,1 @@
+/home/mivia/EserciziRobotica/Robotica/WS_URDF/devel/.private/my_urdf/lib/pkgconfig/my_urdf.pc
